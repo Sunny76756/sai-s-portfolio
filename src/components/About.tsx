@@ -1,5 +1,5 @@
 import React from 'react';
-
+import myPic from '../assets/mypic.jpeg';
 export default function About() {
   return (
     <section id="about" className="py-20 bg-white dark:bg-gray-900">
@@ -11,7 +11,7 @@ export default function About() {
           <div className="relative">
             <div className="aspect-square rounded-2xl overflow-hidden">
               <img
-                src="src/assets/mypic.jpeg"
+                src={myPic}
                 alt="Basetty Sai Prakash"
                 className="w-full h-full object-cover"
               />
